@@ -10,7 +10,7 @@ namespace MovieLibrary
         private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
         static void Main(string[] args)
         {
-            string file = "E:/college/Assignments/.NETdatabase/MovieLibrary/movies.csv";
+            string file = "movies.csv";
             logger.Info("Program started");
 
             MovieFile movieFile = new MovieFile(file);
